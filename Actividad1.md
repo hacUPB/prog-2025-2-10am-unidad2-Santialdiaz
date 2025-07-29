@@ -11,5 +11,7 @@ Se solicitó dar el valor de las unidades mostradas en clase a las que equivalí
 - enteros → 13,736 bytes
 
 52,383 + 21,732 + 13,736= 87,851 bytes
-En KB: 13,736 ÷ 1024 ≈ 13.41 KB
+En KB: 87,851÷1024≈ 85.83 KB
+​
+
 
