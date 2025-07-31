@@ -20,7 +20,7 @@ Nota: Leer es solicitarle al usuario externo que ingrese un dato.
 Investiga cuáles son los símbolos que se utilizan para representar cada operación de un algorimo con un diagrama de flujo. Asegúrate de que la fuente es confiable, discute lo que encontraste con tus compañeros y con el profe. Cuando estés seguro/a de tener los símbolos correctos, consigna la información en la bitácora.
 
 ## Solución:
-![imagensolucion](Cap-Algoritmos.png)
+![imagensolucion](.//Images/Cap-Algoritmos.png)
 
 
 # Ejercicio 2
@@ -38,9 +38,27 @@ Escribir ID, Total, Promedio
 Fin
 ```
 ## Diagrama de Flujo
-![imagendiagrama](Diagrama-Actividad2.png)
+![imagendiagrama](.//Images/Diagrama-Actividad2.png)
 
 # TAREA:
 Para la próxima clase traer el pseudocode y el diagrama de flujo de:
 Curso se evalua con 7 notas, conoce 6 notas que equivalen al 70%, calcular cuanto debo sacar en la evualuacion final para aprobar con 3.0
 Primero hacer el analisis, segundo el pseudocode y por ultimo el diagrama final en este marckdown.
+
+## Solución:
+
+## 1. Pseudocódigo
+```
+Inicio
+Leer n1, n2, n3, n4, n5, n6
+Promedio = (n1 + n2 + n3 + n4 + n5 + n6) / 6
+nota_necesaria = (3.0 - (promedio * 0.7)) / 0.3
+Escribir "Debes sacar", nota_necesaria, "en la nota 7 para aprobar con 3.0"
+Fin
+```
+
+## 2. Diagrama de flujo
+![ImagenTarea](./Images/Diagrama2.png)
+
+
+
