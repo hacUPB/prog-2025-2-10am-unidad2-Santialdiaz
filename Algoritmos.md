@@ -60,5 +60,80 @@ Fin
 ## 2. Diagrama de flujo
 ![ImagenTarea](./Images/Diagrama2.png)
 
+## Ejercicios:
 
+1. Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
+
+|Variables| Tipo|Comentario|
+|---------|-----|---------|
+|Lapices  | Entrada|Cantidad de lapices|
+|valor_unidad | Intermedia|Valor unitario de cada lapiz|
+|precio  | Salida|Precio Total de los lapices|
+|85, 90  | Constantes|No cambian|
+
+## Pseudocódigo
+
+```
+Inicio
+Leer Lapices
+Si lapices >= 1000: 
+    valor_unidad = 85 
+Si no
+    valor unidad = 90
+Fin Si
+Precio = Lapices * valor_unidad
+Escribir "El valor total es:", Precio
+Fin
+```
+## Diagrama de Flujo: 
+![ImagenEjer1](./Images/Diagrama-ejer1.png)
+
+2. Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
+
+|Variables| Tipo|Comentario|
+|---------|-----|---------|
+|total_compra | Entrada|Valor de la compra|
+|descuento | Salida|Descuento segun el valor de la compra|
+|precio_final| Salida|Valor a pagar|
+|15%, 8%, $250000  | Constantes|Descuentos y Valor limite|
+
+## Pseudocodigo:
+```
+Inicio
+Leer total_compra
+Si total_compra > 250000:
+    descuento = total_compra * 0,15
+Si no
+    descuento = total_compra * 0,08
+Fin Si 
+precio_final= total_compra - descuento
+Escribir "Valor a pagar", precio_final
+Fin
+```
+## Diagrama de Flujo:
+![ImagenEjer2](./Images/Diagrama-ej2.png)
+
+3. El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.
+
+|Variables| Tipo|Comentario|
+|---------|-----|---------|
+|alumnos | Entrada|Alumnos|
+|costo_alumno | Salida|Valor por alumno|
+|costo_total| Salida|Valor a pagar en total|
+|100, 50-49, 30-49  | Constantes|Numero de alumnos|
+
+```
+Inicio
+Leer alumnos
+Si alumnos >= 100
+
+```
+## Diagrama de Flujo:
+![ImagenEjer3](./Images/Diagrama-ej3.png)
+
+# TAREA:
+dia                                       dia_actual
+mes                                       mes_actual
+año                                       año_actual
+Pedirle al usuario que ingrese el dia mes y año de nacimiento y por otro lado dia mes y año actual, con estos valores calcular la edad. 
 
