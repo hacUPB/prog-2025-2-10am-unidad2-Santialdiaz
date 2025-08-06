@@ -124,9 +124,26 @@ Fin
 
 ```
 Inicio
-Leer alumnos
-Si alumnos >= 100
+leer alumnos
+si alumnos >=100
+    costo_a lumno= $65
+si no 
+    si alumnos >=50
+        costo_alumno= $70
+    si no alumnos >=30
+        costo_alumno= $95
+    si no
+        costo_total=$4000
+        costo_alumno=costo_total / alumnos
+    fin si
 
+si alumnos>=30
+    costo_total= costo_alumno*alumnos
+fin si
+
+escribir "el costo por alumno es:", costo_alumno
+escribir "el costo total es:", costo_total
+Fin
 ```
 ## Diagrama de Flujo:
 ![ImagenEjer3](./Images/Diagrama-ej3.png)
@@ -137,3 +154,47 @@ mes                                       mes_actual
 año                                       año_actual
 Pedirle al usuario que ingrese el dia mes y año de nacimiento y por otro lado dia mes y año actual, con estos valores calcular la edad. 
 
+## SOLUCIÓN:
+
+| Variables     | Tipo      | Comentario                               |
+|---------------|-----------|------------------------------------------|
+| dia_nac       | Entrada   | Día de nacimiento                        |
+| mes_nac       | Entrada   | Mes de nacimiento                        |
+| año_nac       | Entrada   | Año de nacimiento                        |
+| dia_act       | Entrada   | Día actual                               |
+| mes_act       | Entrada   | Mes actual                               |
+| año_act       | Entrada   | Año actual                               |
+| edad          | Salida    | Edad calculada                           |
+| (mes, día)    | Constante | Se usa para comparar fechas              |
+
+## Pseudocódigo:
+
+
+```
+Inicio
+Inicio
+
+leer dia_nac
+leer mes_nac
+leer año_nac
+
+leer dia_act
+leer mes_act
+leer año_act
+
+edad = año_act - año_nac
+
+si mes_act < mes_nac
+    edad = edad - 1
+si no
+    si mes_act == mes_nac
+        si dia_act < dia_nac
+            edad = edad - 1
+fin si
+
+escribir "La edad es:", edad
+
+Fin
+```
+
+## Diagrama de Flujo:
