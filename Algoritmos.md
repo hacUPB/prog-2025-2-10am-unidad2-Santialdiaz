@@ -172,7 +172,6 @@ Pedirle al usuario que ingrese el dia mes y año de nacimiento y por otro lado d
 
 ```
 Inicio
-Inicio
 
 leer dia_nac
 leer mes_nac
@@ -198,3 +197,4 @@ Fin
 ```
 
 ## Diagrama de Flujo:
+![ImagenTarea](./Images/Diagrama-tarea.png)
