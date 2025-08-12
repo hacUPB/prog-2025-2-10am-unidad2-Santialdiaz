@@ -197,4 +197,5 @@ Fin
 ```
 
 ## Diagrama de Flujo:
-![ImagenTarea](./Images/Diagrama-tarea.png)
+![ImagenTarea](./Images/Tarea-corregida.png)
+
