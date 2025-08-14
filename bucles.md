@@ -87,12 +87,12 @@ Leer cuotas
 cuota = (compra * tasa) / (1 - (1 + tasa) ^ (-cuotas))
 saldo = compra
 
-    Para mes = 1 Hasta cuotas Hacer
+    Mientras mes <= cuotas
         interes = saldo * tasa
         abono_capital = cuota - interes
         saldo = saldo - abono_capital
         Escribir "Mes ", mes, ": cuota=", cuota, " interés=", interes, " capital=", abono_capital, " saldo=", saldo
-    FinPara
+    Fin Mientras
 Fin
 ```
 ## Diagrama de Flujo:
